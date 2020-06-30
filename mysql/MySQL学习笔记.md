@@ -9,7 +9,9 @@ $ mysql -u root -p12345612
 # 退出MySQL数据库服务器
 exit;
 ```
+## 表转换为可输入中文
 
+alter table `tablename` convert to character set utf8;
 ## 基本语法
 
 ```mysql
